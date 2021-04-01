@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="calch2">Calculadora IMC</h2>
+        <div class="calculator">
+            <form action="">
+            <div  class="nome template--title"">
+                <label class="label" for="nome">Nome</label>
+                <div></div>
+                <input  id="nome" maxlength="15"  placeholder="João da Silva" name="nome" type="text">    
+            </div><!--nome-->
+
+            <div class="sexo template--title">
+                <label class="label">Sexo</label>
+                <div class="flex--button">
+                    <button onclick="return false,ChangeColorM()" id="man" >Homem</button>
+                    <button onclick="return false,ChangeColorW()" id="woman" onclick="return false">Mulher</button>
+                
+                </div><!--flex--buton-->
+            </div><!--sexo-->
+
+            <div  class="idade template--title"">
+                <label class="label" for="idade">Idade</label>
+                <div></div>
+                <input placeholder="26" name="idade" type="text">   
+                
+            </div><!--idade-->
+
+            <div  class="altura template--title"">
+                <label class="label" for="altura">Altura</label>
+                <div></div>
+                <input id="altura" placeholder="1,72" name="altura" type="text">  
+                <span id="alturaSpan" class="alturaSpan"></span>  
+            </div><!--nome-->
+
+            <div  class="peso template--title"">
+                <label class="label" for="peso">Peso</label>
+                <div></div>
+                <input id="peso" placeholder="75,5" name="peso" type="text">    
+                <span id="pesoSpan" class="pesoSpan"></span>  
+
+            </div><!--nome-->
+
+                <button onclick="return false,verify()" class="calc">Calcular</button>
+
+                <div class="resultado-box">
+                    <p id="pResultado"></p>
+                </div>
+        </div>
+    </form>
+    <section>
+
+        </div>
+    </section>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

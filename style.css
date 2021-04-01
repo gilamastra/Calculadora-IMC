@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(88, 88, 88);
+}
+.container{
+    max-width:1000px;
+    margin:0 auto;
+    
+}
+.calch2{
+    margin:50px auto;
+    text-align:center;
+}
+.calculator{
+    background-color:rgb(243, 243, 243);
+    width:500px;
+    border-radius:20px;
+    border:1px solid rgb(187, 187, 187);
+    margin:auto;   
+    margin-top:50px; 
+    -webkit-box-shadow: -1px 11px 21px 3px rgba(0,0,0,0.62);
+-moz-box-shadow: -1px 11px 21px 3px rgba(0,0,0,0.62);
+box-shadow: -1px 11px 21px 3px rgba(0,0,0,0.62);
+}
+.template--title{
+    margin:25px;
+}
+
+.label{
+    font-size:18px;
+}
+input{
+  display:block;
+  margin:5px auto;
+  width:80%;
+  height:38px;
+  border:1px solid rgb(209, 208, 208);
+  padding-left:15px;
+  border-radius:5px;
+}
+input::placeholder{
+    color: rgb(206, 206, 206);
+}
+input:focus{
+    outline:0;
+    border:1px solid rgb(165, 164, 164);
+}
+
+.template--title{
+    margin-bottom:25px;
+}
+.flex--button{
+    display:flex;
+    justify-content:center;
+}
+.flex--button button{
+width:40%;
+height:50px;
+background-color:white;
+outline:0;
+border:1px solid rgb(206, 206, 206);
+font-size:16px;
+color: rgb(141, 140, 140);
+cursor: pointer;
+transition: all 0.4s;
+
+}
+
+.flex--button button:hover{
+   transition: all 0.4s;
+   color:black;
+}
+
+button.calc{
+    width:40%;
+    display:block;
+    height:53px;
+    margin:0 auto;
+    color:white;
+    border-radius: 5px;
+    background: #E0607A;
+    border:0;
+    outline:0;
+    box-shadow: 0 2px 0 #8c1b32;
+    font-size: 1.125rem;
+    padding: 10px 14px;
+    transition:all .2s ;
+    cursor: pointer;
+}
+button.calc:hover{
+    background-color:#b64d62 ;
+}
+
+.alturaSpan,.pesoSpan{
+color:red;
+font-size:12px;
+}
+
+.resultado{
+        width:500px;
+        background-color:rgb(255, 255, 255);
+        padding:15px;
+        margin:auto;
+        display:none;
+    
+}
+.resultado h3{
+    font-size:30px;
+}
+.resultado p{
+    font-size:18px;
+}
+
+.resultado-box{
+    width:350px;
+    height:110px;
+    margin:40px auto;
+    display:block;
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(255, 255, 255);
+    -webkit-box-shadow: -1px 5px 26px -1px rgba(0,0,0,0.62);
+    -moz-box-shadow: -1px 5px 26px -1px rgba(0,0,0,0.62);
+    box-shadow: -1px 5px 26px -1px rgba(0,0,0,0.62);
+    line-height:50px;
+}
+
+.resultado-box p{
+    text-align:center;
+    padding:10px;
+    padding-top:10px;
+}
